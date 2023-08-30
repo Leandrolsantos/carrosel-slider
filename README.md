@@ -12,11 +12,11 @@ Youtube: (EM BREVE)
 
 ## Sobre
 
-(EM BREVE)
+É um slider tipo carrosel com imagens de comida e com avaliação.
 
 ### Objetivos
 
-(EM BREVE)
+Aprender mais como funciona a criação de um slide carrosel com várias imagens.
 
 ### Desafio
 
