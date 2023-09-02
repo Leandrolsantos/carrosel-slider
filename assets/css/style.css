@@ -57,6 +57,11 @@ html {
   background: #f9f9f9;
 }
 
+body {
+  font-size: 1.6rem;
+  background: var(--bg);
+}
+
 .container{
     max-width: 124rem;
     padding: 0 1rem;
@@ -119,3 +124,86 @@ html {
     border-radius: 2rem;
     object-fit: cover;
 }
+
+.tranding-slide .tranding-slide-content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;  
+}
+
+.tranding-slide-content .food-price {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: var(--white);
+}
+
+.tranding-slide-content .tranding-slide-content-bottom {
+  position: absolute;
+  bottom: 2rem;
+  left: 2rem;
+  color: var(--white);  
+}
+
+.food-rating {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.rating ion-icon {
+  color: var(--primary);
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right{
+  display: none;
+}
+
+.tranding-slider-control {
+  position: relative;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tranding-slider-control .swiper-button-next{
+  left: 58% !important;
+  transform: translateX(-58%) !important;
+}
+
+@media (max-width: 990px){
+  .tranding-slider-control .swiper-button-next{
+    left: 70% !important;
+    transform: translateX(-70%) !important;
+  }
+}
+
+@media (max-width: 450px){
+  .tranding-slider-control .swiper-button-next{
+    left: 80% !important;
+    transform: translateX(-80%) !important;
+  }
+}
+
+@media (max-width: 990px){
+  .tranding-slider-control .swiper-button-prev{
+    left: 30% !important;
+    transform: translateX(-30%) !important;
+  }
+}
+
+@media (max-width: 450px){
+  .tranding-slider-control .swiper-button-prev{
+    left: 20% !important;
+    transform: translateX(-20%) !important;
+  }
+}
+
+
+
+
+
