@@ -60,6 +60,9 @@ html {
 body {
   font-size: 1.6rem;
   background: var(--bg);
+  text-shadow: 2px 2px 3px black;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
 }
 
 .container{
@@ -123,6 +126,7 @@ body {
     height: 42rem;
     border-radius: 2rem;
     object-fit: cover;
+    box-shadow: 2px 2px 3px black;
 }
 
 .tranding-slide .tranding-slide-content {
@@ -137,14 +141,22 @@ body {
   position: absolute;
   top: 2rem;
   right: 2rem;
-  color: var(--white);
+  color: rgb(8, 175, 246);
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 3px 3px 5px black;
+  font-size: 4rem;
 }
 
 .tranding-slide-content .tranding-slide-content-bottom {
   position: absolute;
   bottom: 2rem;
   left: 2rem;
-  color: var(--white);  
+  color: var(--white);
+  text-shadow: 3px 3px 5px black;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+  font-size: 1.6rem;  
 }
 
 .food-rating {
@@ -202,6 +214,41 @@ body {
     transform: translateX(-20%) !important;
   }
 }
+
+.tranding-slider-control .slider-arrow {
+  background: var(--white);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  left: 42%;
+  transform: translateX(-42%);
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .slider-arrow ion-icon {
+  font-size: 2rem;
+  color: #222224;
+}
+
+.tranding-slider-control .slider-arrow::after {
+  content: '';
+}
+
+.tranding-slider-control .swiper-pagination {
+  position: relative;
+  width: 15rem;
+  bottom: 1rem;
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
+}
+
+.tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
+  background: var(--primary);
+}  
+
+
 
 
 
