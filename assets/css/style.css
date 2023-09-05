@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&display=swap');
 *,
 *::before,
 *::after {
@@ -17,13 +17,13 @@
 
 html {
   font-size: 62.5%;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Roboto Slab', serif;
   scroll-behavior: smooth;
 }
 
 @media (min-width: 1440px) {
   html {
-    zoom: 1.5;
+    zoom: 1.2;
   }
 }
 
@@ -35,7 +35,7 @@ html {
 
 @media (min-width: 3860px) {
   html {
-    zoom: 2.5;
+    zoom: 2;
   }
 }
 
@@ -85,13 +85,16 @@ body {
     padding: 4rem 0;
 }
 
-@media (max-width: 1440px){
+@media (max-width: 1920px) and (min-width: 900px) {
     #tranding {
         padding: 7rem 0;
+        margin-top: 0px;
+        zoom: 0.5;
     } 
 }
 
 #tranding .tranding-slider {
+    zoom: 1.03;
     height: 52rem;
     padding: 2rem 0;
     position: relative;
@@ -100,6 +103,7 @@ body {
 @media (max-width: 500px){
     #tranding .tranding-slider {
         height: 45rem;
+        zoom: 0.43;
     } 
 }
 
@@ -154,9 +158,9 @@ body {
   left: 2rem;
   color: var(--white);
   text-shadow: 3px 3px 5px black;
-  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
-  font-size: 1.6rem;  
+  font-size: 2.2rem;  
 }
 
 .food-rating {
