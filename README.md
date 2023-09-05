@@ -6,7 +6,7 @@
 
 ![](./)
 
-Deploy: (EM BREVE)
+Deploy: https://carrosel-slider-rho.vercel.app/
 
 Youtube: (EM BREVE)
 
