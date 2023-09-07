@@ -12,11 +12,11 @@ Youtube: (EM BREVE)
 
 ## Sobre
 
-É um slider tipo carrosel com imagens de comida e com avaliação. Como tema coloquei os meus pratos de comida favoritos.
+É um slider tipo carrosel com imagens de comida e com avaliação. Como tema coloquei os meus 7 pratos de comida favoritos.
 
 ### Objetivos
 
-Aprender como funciona a criação de um slide carrosel interativo com várias imagens.
+Aprender como funciona a criação de um slide carrosel interativo com várias imagens e efeitos 3D.
 
 ### Desafio
 
