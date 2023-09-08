@@ -60,9 +60,9 @@ html {
 body {
   font-size: 1.6rem;
   background: var(--bg);
-  text-shadow: 2px 2px 3px black;
-  -webkit-text-stroke-width: 0.2px;
-  -webkit-text-stroke-color: black;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.652);
+  -webkit-text-stroke-width: 1.3px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.482);
 }
 
 .container{
@@ -130,7 +130,7 @@ body {
     height: 42rem;
     border-radius: 2rem;
     object-fit: cover;
-    box-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.607);
 }
 
 .tranding-slide .tranding-slide-content {
@@ -147,8 +147,8 @@ body {
   right: 2rem;
   color: rgb(8, 175, 246);
   -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-  text-shadow: 3px 3px 5px black;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.632);
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.493);
   font-size: 4rem;
 }
 
@@ -157,9 +157,9 @@ body {
   bottom: 2rem;
   left: 2rem;
   color: var(--white);
-  text-shadow: 3px 3px 5px black;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.492);
   -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.481);
   font-size: 2.2rem;  
 }
 
