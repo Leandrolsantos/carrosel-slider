@@ -1,6 +1,6 @@
 # Carrosel Slider
 
-![](./assets/img/gf.gif.jpg)
+![](./assets/img/gf.gif)
 
 ![](./assets/img/f1.jpg)
 
