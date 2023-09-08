@@ -1,14 +1,16 @@
 # Carrosel Slider
 
-![](./)
+![](./assets/img/gf.gif.jpg)
 
-![](./)
+![](./assets/img/f1.jpg)
 
-![](./)
+![](./assets/img/f2.jpg)
+
+![](./assets/img/f3.jpg)
 
 Deploy: https://carrosel-slider-rho.vercel.app/
 
-Youtube: (EM BREVE)
+Youtube: https://youtu.be/cTXZNAnHpdc?si=oPsgezsYD22mniH0
 
 ## Sobre
 
