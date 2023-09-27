@@ -4,13 +4,9 @@
 
 ![](./assets/img/f1.jpg)
 
-![](./assets/img/f2.jpg)
-
-![](./assets/img/f3.jpg)
-
 Deploy: https://carrosel-slider-rho.vercel.app/
 
-Youtube: https://youtu.be/cTXZNAnHpdc?si=oPsgezsYD22mniH0
+Youtube: https://youtu.be/4P00_R_XIeQ?si=mZQShKv_VoX0PLwY
 
 ## Sobre
 
